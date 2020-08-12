@@ -12,7 +12,7 @@ html,body {
   background:url("image/2.jpg")no-repeat 50% 50%;
   height: 100vh;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   }
 
 .parallex-el {
