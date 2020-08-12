@@ -1,0 +1,95 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background:#fff;
+  overflow-x: hidden;
+
+}
+
+.hero-image {
+  width:100%;
+  background:url("image/2.jpg")no-repeat 50% 50%;
+  height: 100vh;
+  background-size: cover;
+  position: absolute;
+  }
+
+.parallex-el {
+  background: url("image/fore.png")no-repeat 50% 50%;
+  background-size: auto;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.orbbig {
+  background: url("image/main_orb.png")no-repeat 50% 50%;
+  background-size:contain;
+  width: 85%;
+  height: 92%;
+  position:fixed;
+  left:12%;
+  z-index: 1;
+}
+
+.orblft {
+  background: url("image/leftorb.png")no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  right: 10%;
+
+}
+.smiddle{
+  background: url("image/smallmiddle.png")no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.sright{
+  background: url("image/smallright.png")no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height:100%;
+  position: absolute;
+}
+
+.cloud{
+  background: url("image/cloud.png")no-repeat 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity:0.4;
+}
+
+.whitespace{
+  width: 100%;
+  height: 100vh;
+}
+.content{
+  background:#000d2f;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  font-family: Helvetica;
+
+}
+.orbit{
+  background: url("image/orbit_1.png")no-repeat 50% 50%;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+
+}
